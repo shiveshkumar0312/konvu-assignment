@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 public class Application {
     private static Logger LOGGER = LoggerFactory.getLogger(PaymentProcessor.class);
     public static void main(String[] args) {
-        int numberOfLogLines = 10000000;
+        int numberOfLogLines = 1000;
         LOGGER.info("Application started...");
         long startTime = System.nanoTime();
         PaymentProcessor processor = new PaymentProcessor("Michael", 110000);
